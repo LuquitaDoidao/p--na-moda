@@ -269,3 +269,19 @@ header button:hover{
 ::-webkit-scrollbar-thumb{
     width: 0px;
 }
+
+/* Começo do Rodapé */
+
+footer {
+    margin-top: 50px;
+    background-color: #fb822e;
+    text-align: center;
+}
+
+.p-foot {
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+}
+
+/* Fim do Rodapé */
