@@ -111,6 +111,16 @@ header button:hover{
     margin-left: 35px;
  }
 
+ .repart {
+    text-align: center;
+    font-size: 27px;
+
+ }
+ .a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
 
 /*=============== acabou catalago ===============*/
 
@@ -143,3 +153,23 @@ header button:hover{
     display: flex;
     flex-direction: column;
 }
+
+
+
+
+
+
+
+
+
+  .line-text {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre as linhas e o texto */
+  }
+  
+  .line-text span {
+    flex: 1;
+    height: 1px;
+    background-color: #fb822e;
+  }
