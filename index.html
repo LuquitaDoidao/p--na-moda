@@ -19,15 +19,20 @@
 <body>
     <!-- cabeçalho -->
     <header class="d-flex-bit">
-
+                         
         <h1>Pisanti</h1>
 
         <input placeholder="O que você quer hoje?... ">
-        <button>Cadastrar</button>
+        <button id="cadastro">Cadastrar</button>
     </header>
 
     <main>
-        <p class="categoria">Sapatos Masculinos</p>
+        <div class="line-text repart">
+            <span></span>
+            <p>Sapatos Masculinos</p>
+            <span></span>
+        </div>
+
         <section class="d-flex">
             <div class="quadro">
                 <img src="assets/img/1.png">
@@ -54,7 +59,50 @@
             </div>
         </section>
 
-        <p class="categoria">Sapatos Feminino</p>
+
+        <div class="line-text repart">
+            <span></span>
+            <p>Sapatos Femininos</p>
+            <span></span>
+        </div>
+        <section>
+
+            
+        <section class="d-flex">
+            <div class="quadro">
+                <img src="assets/img/sapato1.png">
+                <div>
+                    <p class="nome">Salto Alto</p>
+                    <p class="preco">R$ 99.99</p>
+                </div>
+            </div>
+
+
+            <div class="quadro">
+                <img src="assets/img/sapato1.png">
+                <div>
+                    <p class="nome">Salto Alto</p>
+                    <p class="preco">R$ 99.99</p>
+                </div>
+            </div>
+
+            <div class="quadro">
+                <img src="assets/img/sapato1.png">
+                <div>
+                    <p class="nome">Salto Alto</p>
+                    <p class="preco">R$ 99.99</p>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="line-text repart">
+            <span></span>
+            <p>Sapatos Infantis</p>
+            <span></span>
+        </div>
+        <section>
+
         <section class="d-flex">
             <div class="quadro">
                 <img src="assets/img/7.png">
@@ -80,6 +128,7 @@
                 </div>
             </div>
         </section>
+
 
         <p class="categoria">Sapatos Infantil</p>
         <section class="d-flex">
@@ -108,10 +157,11 @@
             </div>
         </section>
         
+
         <!-- Modal adição -->
-        <div class="modal-inserir">
-            <div class="modal-inserir-content">
-                <form class="inserir-form">    
+        <div class="modal_inserir">
+            <div class="modal_inserir_content">
+                <form class="inserir_form">    
                     <input type="url" placeholder="Insira o URL da imagem">
                     <input type="text" placeholder="Insira o Nome">
                     <input type="text" placeholder="Descrição do Produto">
