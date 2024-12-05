@@ -78,8 +78,11 @@ header button:hover{
 /* Modal Inserção */
 /*=============== catalago ===============*/
 
- main p{
+ .categoria{
     color: #fb822e;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 50px;
  }
 
  .quadro{
@@ -89,6 +92,11 @@ header button:hover{
     width: 250px;
     height: 330px;
     margin-left: 30px;
+ }
+
+ .quadro:hover{
+    border: 2px solid #fb822e;
+    background-color: #ebebeb;
  }
 
  .quadro img{
