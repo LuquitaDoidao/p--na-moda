@@ -167,7 +167,7 @@ header button:hover{
 /*=============== modal ver mais ===============*/
 
 .sombra{
-    display: flex;
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -246,10 +246,6 @@ header button:hover{
 
 
 /*=============== acabou modal ver mais ===============*/
-
-
-
-
 
   .line-text {
     display: flex;
