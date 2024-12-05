@@ -1,143 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ǝ̗Ԁ</title>
-    <link rel="stylesheet" href="assets/css/estilo.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-
+    <link rel="stylesheet" href="assets/css/estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- cabeçalho -->
     <header class="d-flex-bit">
-                         
-        <h1>Pisanti</h1>
-
-        <input placeholder="O que você quer hoje?... ">
-        <button id="cadastro">Cadastrar</button>
+      <h1>Pisanti</h1>
+      <input placeholder="O que você quer hoje?... " />
+      <button id="cadastro">Cadastrar</button>
     </header>
 
     <main>
-        <div class="line-text repart">
-            <span></span>
-            <p>Sapatos Masculinos</p>
-            <span></span>
+      <div class="line-text repart">
+        <span></span>
+        <p>Sapatos Masculinos</p>
+        <span></span>
+      </div>
+
+      <!-- Seção para Sapatos Masculinos -->
+      <section class="d-flex" data-genero="masculino">
+        <div class="quadro">
+          <img src="assets/img/1.png" />
+          <div>
+            <p class="nome">Salto Alto</p>
+            <p class="preco">R$ 99.99</p>
+          </div>
         </div>
 
-        <section class="d-flex">
-            <div class="quadro">
-                <img src="assets/img/1.png">
-                <div>
-                    <p class="nome">Salto Alto</p>
-                    <p class="preco">R$ 99.99</p>
-                </div>
-            </div>
-
-            <div class="quadro">
-                <img src="assets/img/2.png">
-                <div>
-                    <p class="nome">Salto Alto</p>
-                    <p class="preco">R$ 99.99</p>
-                </div>
-            </div>
-
-            <div class="quadro">
-                <img src="assets/img/3.png">
-                <div>
-                    <p class="nome">Salto Alto</p>
-                    <p class="preco">R$ 99.99</p>
-                </div>
-            </div>
-        </section>
-
-
-        <div class="line-text repart">
-            <span></span>
-            <p>Sapatos Femininos</p>
-            <span></span>
-        </div>
-        <section>
-
-            
-        <section class="d-flex">
-            <div class="quadro">
-                <img src="assets/img/17.png">
-                <div>
-                    <p class="nome">Salto Alto</p>
-                    <p class="preco">R$ 99.99</p>
-                </div>
-            </div>
-
-
-            <div class="quadro">
-                <img src="assets/img/18.png">
-                <div>
-                    <p class="nome">Salto Alto</p>
-                    <p class="preco">R$ 99.99</p>
-                </div>
-            </div>
-
-            <div class="quadro">
-                <img src="assets/img/13.png">
-                <div>
-                    <p class="nome">Salto Alto</p>
-                    <p class="preco">R$ 99.99</p>
-                </div>
-            </div>
-        </section>
-
-
-        
-
-        <!-- Modal adição -->
-        <div class="modal_inserir">
-            <div class="modal_inserir_content">
-                <form class="inserir_form">    
-                    <input type="url" placeholder="Insira o URL da imagem">
-                    <input type="text" placeholder="Insira o Nome">
-                    <input type="text" placeholder="Descrição do Produto">
-                    <input type="number" placeholder="Insira o Preço">
-                    <button type="submit" class="create-button">Cadastrar</button>
-                </form>
-            </div>
+        <div class="quadro">
+          <img src="assets/img/2.png" />
+          <div>
+            <p class="nome">Salto Alto</p>
+            <p class="preco">R$ 99.99</p>
+          </div>
         </div>
 
-        <!-- Modal ver mais -->
-        <div class="sombra">
-            <div class="quadro-modal d-flex">
-                <img src="assets/img/1.png" alt="">
-                <form class="inserir-form">  
-                    <p class="x">x</p>  
-                    <p class="nome">
-                        Salto Alto
-                    </p>
-                    <p class="preco">
-                        R$ 99.99
-                    </p>
-                    <p class="descri">
-                        salto alto, preto, com cardaço atras, super estiloso para sair a noite e para tacar na cabeça de gente cretina
-                    </p>
-                    <button id="editar">Editar</button>
-                </form>
-            </div>
+        <div class="quadro">
+          <img src="assets/img/3.png" />
+          <div>
+            <p class="nome">Salto Alto</p>
+            <p class="preco">R$ 99.99</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="line-text repart">
+        <span></span>
+        <p>Sapatos Femininos</p>
+        <span></span>
+      </div>
+
+      <!-- Seção para Sapatos Femininos -->
+      <section class="d-flex" data-genero="feminino">
+        <div class="quadro">
+          <img src="assets/img/17.png" />
+          <div>
+            <p class="nome">Salto Alto</p>
+            <p class="preco">R$ 99.99</p>
+          </div>
         </div>
 
+        <div class="quadro">
+          <img src="assets/img/18.png" />
+          <div>
+            <p class="nome">Salto Alto</p>
+            <p class="preco">R$ 99.99</p>
+          </div>
+        </div>
+
+        <div class="quadro">
+          <img src="assets/img/13.png" />
+          <div>
+            <p class="nome">Salto Alto</p>
+            <p class="preco">R$ 99.99</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal adição -->
+      <div class="modal_inserir">
+        <div class="modal_inserir_content">
+          <form class="inserir_form">
+            <input type="url" placeholder="Insira o URL da imagem" />
+            <input type="text" placeholder="Insira o Nome" />
+            <input type="text" placeholder="Descrição do Produto" />
+            <input type="number" placeholder="Insira o Preço" />
+            <!-- Campo para selecionar Masculino ou Feminino -->
+            <select id="genero">
+              <option value="masculino">Masculino</option>
+              <option value="feminino">Feminino</option>
+            </select>
+            <button type="submit" class="create-button">Cadastrar</button>
+          </form>
+        </div>
+      </div>
+
+
+      <!-- Modal ver mais -->
+      <div class="sombra" id="modalSombra" style="display: none">
+        <div class="quadro-modal d-flex">
+          <img id="modalImg" src="" alt="" />
+          <form class="inserir-form">
+            <p class="x" id="fecharModal">x</p>
+            <p class="nome" id="modalNome"></p>
+            <p class="preco" id="modalPreco"></p>
+            <p class="descri" id="modalDescri"></p>
+            <button id="deletar">Deletar</button>
+            <button id="editar">Editar</button>
+          </form>
+        </div>
+      </div>
     </main>
 
-    <footer>
-        
-    </footer>
+    <footer></footer>
 
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
