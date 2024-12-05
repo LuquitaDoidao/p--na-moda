@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*=============== acesso rápido ===============*/
+
+.d-flex{
+    display: flex;
+}
+
+.d-flex-evilin{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.centraliza{
+    display: flex;
+    justify-content: center;
+}
+
+.relativo{
+    position: relative;
+}
+
+/*=============== acabou acesso rápido ===============*/
+
+/*=============== cabeçalho ===============*/
+
+header{
+    background: linear-gradient(10deg, #fb822e, #d6600c);
+}
+
+h1{
+    color: white;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
+header input{
+    background-color: #aaaaaa;
+    width: ;
+    height: ;
+}
+
+/*=============== acabou cabeçalho ===============*/
+
+
