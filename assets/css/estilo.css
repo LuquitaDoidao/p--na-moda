@@ -122,13 +122,10 @@ header button:hover{
  .repart {
     text-align: center;
     font-size: 27px;
-
+    color: #fb822e;
+    margin-top: 15px;
+    margin-bottom: 15px;
  }
- .a{
-    margin-top: 10px;
-    margin-bottom: 10px;
- }
-
 
 /*=============== acabou catalago ===============*/
 
