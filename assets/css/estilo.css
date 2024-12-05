@@ -33,13 +33,15 @@ header {
   background: linear-gradient(10deg, #fb822e, #d6600c);
 }
 
+
 h1 {
   color: white;
   font-family: "Oleo Script", Arial, Helvetica, sans-serif;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 30px;
-}
+
+
 
 header input {
   background-color: #f0f0f0;
@@ -125,6 +127,9 @@ header button:hover {
 
 /*=============== acabou catalago ===============*/
 
+/*=============== modal adicionar ===============*/
+
+
 .modal_inserir {
   display: none;
   position: fixed;
@@ -165,8 +170,111 @@ header button:hover {
   background-color: #fb822e;
 }
 
+/*=============== acabou modal adicionar ===============*/
+
+/*=============== modal ver mais ===============*/
+
+.sombra{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+.quadro-modal{
+    border-radius: 8px;
+    width: 750px;   
+    background-color: #f1f1f1;
+    
+}
+
+.quadro-modal img{
+    height: 350px;
+    border: 1px solid #fb822e;
+    border-radius: 15px;
+    margin: 10px
+}
+
+.quadro-modal .nome{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #fb822e;
+    font-size: 40px;
+}
+
+.quadro-modal .preco{
+    margin-left: 10px;
+}
+
+.quadro-modal .descri{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.quadro-modal .x{
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    color: #fb822e;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid #fb822e;
+    display: flex;
+    justify-content: center;
+    margin-left: 330px;
+    margin-top:10px;
+}
+
+.quadro-modal .x:hover{
+    color: #ffffff;
+    background-color: #fb822e;
+    border: 2px solid #fb822e;
+}
+
+.quadro-modal button{
+    font-size: 20px;
+    height: 35px;
+    width: 120px;
+    color: #fb822e;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #fb822e;
+}
+
+.quadro-modal button:hover{
+    color: #ffffff;
+    background-color: #fb822e;
+    border: 2px solid #fb822e;
+}
+
 
 ::-webkit-scrollbar{
     width: 0px;
     background-color: #f0f0f000;
 }
+
+
+/*=============== acabou modal ver mais ===============*/
+
+
+
+
+
+  .line-text {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre as linhas e o texto */
+  }
+  
+  .line-text span {
+    flex: 1;
+    height: 1px;
+    background-color: #fb822e;
+  }
+
+
