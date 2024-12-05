@@ -9,6 +9,8 @@
 
 .d-flex{
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .d-flex-bit{
@@ -261,3 +263,13 @@ header button:hover{
     background-color: #fb822e;
   }
 
+
+
+  ::-webkit-scrollbar{
+
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 0px;
+}
