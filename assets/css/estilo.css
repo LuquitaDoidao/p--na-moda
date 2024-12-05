@@ -75,6 +75,7 @@ header button:hover{
 
 /*=============== acabou cabeçalho ===============*/
 
+/* Modal Inserção */
 /*=============== catalago ===============*/
 
  main p{
@@ -114,3 +115,31 @@ header button:hover{
 /*=============== acabou catalago ===============*/
 
 
+.modal-inserir{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+.modal-inserir-content{
+
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    padding: 40px;
+    align-items: center;    
+    background-color: #fb822e;
+    
+}
+
+.inserir-form{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
