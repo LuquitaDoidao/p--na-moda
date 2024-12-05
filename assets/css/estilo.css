@@ -1,74 +1,77 @@
 * {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 /*=============== acesso rápido ===============*/
 
-.d-flex {
-  display: flex;
+.d-flex{
+    display: flex;
 }
 
-.d-flex-bit {
-  display: flex;
-  justify-content: space-between;
+.d-flex-bit{
+    display: flex;
+    justify-content: space-between;
 }
 
-.centraliza {
-  display: flex;
-  justify-content: center;
+.centraliza{
+    display: flex;
+    justify-content: center;
 }
 
-.relativo {
-  position: relative;
+.relativo{
+    position: relative;
 }
 
 /*=============== acabou acesso rápido ===============*/
 
+
+
 /*=============== cabeçalho ===============*/
 
-header {
-  background: linear-gradient(10deg, #fb822e, #d6600c);
+header{
+    background: linear-gradient(10deg, #fb822e, #d6600c);
 }
 
-
-h1 {
-  color: white;
-  font-family: "Oleo Script", Arial, Helvetica, sans-serif;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 30px;
-
-
-
-header input {
-  background-color: #f0f0f0;
-  width: 500px;
-  height: 50px;
-  border-radius: 15px;
-  border: transparent;
-  margin-top: 10px;
-  padding-left: 10px;
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: "Oleo Script", Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
 }
 
-header button {
-  background-color: #ebebeb;
-  color: #fb822e;
-  font-size: 17px;
-  width: 100px;
-  height: 50px;
-  border-radius: 17px;
-  border: transparent;
-  margin-top: 10px;
-  margin-right: 30px;
-  transition: 0.5s;
+header input{
+    background-color: #f0f0f0;
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+    border: transparent;
+    margin-top: 10px;
+    padding-left: 10px;
 }
 
-header button:hover {
-  background-color: #000000;
-  color: #ffffff;
+header button{
+    background-color: #ebebeb;
+    color: #fb822e;
+    font-size: 17px;
+    width: 100px;
+    height: 50px;
+    border-radius: 17px;
+    border: transparent;
+    margin-top: 10px;
+    margin-right: 30px;
+    transition: 0.5s;
+    
+}
+
+header button:hover{
+    background-color: #000000;
+    color: #ffffff;
+    
 }
 
 /*=============== acabou cabeçalho ===============*/
@@ -76,98 +79,85 @@ header button:hover {
 /* Modal Inserção */
 /*=============== catalago ===============*/
 
-.categoria {
-  color: #fb822e;
-  margin-left: 30px;
-  font-size: 20px;
-  margin-top: 50px;
-}
+ .categoria{
+    color: #fb822e;
+    margin-left: 40px;
+    font-size: 25px;
+    margin-top: 50px;
+ }
 
-.quadro {
-  border: 1px solid #000000;
-  background-color: #f5f5f5;
-  border-radius: 15px;
-  width: 250px;
-  height: 330px;
-  margin-left: 30px;
-}
+ .quadro{
+    border: 1px solid #000000;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    width: 250px;
+    height: 330px;
+    margin-left: 30px;
+ }
 
-.quadro:hover {
-  border: 2px solid #fb822e;
-  background-color: #ebebeb;
-}
+ .quadro:hover{
+    border: 2px solid #fb822e;
+    background-color: #ebebeb;
+ }
 
-.quadro img {
-  height: 200px;
-  margin-left: 8%;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  border: 0.1px solid #000000;
-  border-radius: 15px;
-}
+ .quadro img{
+    height: 200px;
+    margin-left: 8%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 0.1px solid #000000;
+    border-radius: 15px;
+ }
 
-.nome {
-  color: #000000;
-  font-size: 25px;
-  margin-left: 35px;
-}
+ .nome{
+    color:#000000;
+    font-size: 25px;
+    margin-left: 35px;
+ }
 
-.preco {
-  color: #535353;
-  margin-left: 35px;
-}
+ .preco{
+    color:#535353;
+    margin-left: 35px;
+ }
 
-.repart {
-  text-align: center;
-  font-size: 27px;
-  color: #fb822e;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
+ .repart {
+    text-align: center;
+    font-size: 27px;
+    color: #fb822e;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
 
 /*=============== acabou catalago ===============*/
 
 /*=============== modal adicionar ===============*/
 
-
 .modal_inserir {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  justify-content: center;
-  align-items: center;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
 }
 
 .modal_inserir_content {
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  width: 300px;
-  padding: 40px;
-  align-items: center;
-  background-color: #fb822e;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    padding: 40px;
+    align-items: center;
+    background-color: #fb822e;
 }
 
-.inserir-form {
-  gap: 10px;
-  display: flex;
-  flex-direction: column;
-}
-
-.line-text {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* Espaço entre as linhas e o texto */
-}
-
-.line-text span {
-  flex: 1;
-  height: 1px;
-  background-color: #fb822e;
+.inserir-form{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 /*=============== acabou modal adicionar ===============*/
@@ -253,12 +243,6 @@ header button:hover {
 }
 
 
-::-webkit-scrollbar{
-    width: 0px;
-    background-color: #f0f0f000;
-}
-
-
 /*=============== acabou modal ver mais ===============*/
 
 
@@ -276,5 +260,4 @@ header button:hover {
     height: 1px;
     background-color: #fb822e;
   }
-
 
