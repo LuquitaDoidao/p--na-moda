@@ -130,7 +130,7 @@ header button:hover{
 /*=============== acabou catalago ===============*/
 
 
-.modal-inserir{
+.modal_inserir {
     display: none;
     position: fixed;
     top: 0;
@@ -141,16 +141,15 @@ header button:hover{
     justify-content: center;
     align-items: center;
 }
-.modal-inserir-content{
 
+.modal_inserir_content {
     padding: 20px;
     border-radius: 8px;
     text-align: center;
     width: 300px;
     padding: 40px;
-    align-items: center;    
+    align-items: center;
     background-color: #fb822e;
-    
 }
 
 .inserir-form{
