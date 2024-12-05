@@ -37,9 +37,10 @@ header{
 
 h1{
     color: white;
+    font-size: 50px;
     font-family: "Oleo Script", Arial, Helvetica, sans-serif;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 30px;
 }
 
@@ -80,8 +81,8 @@ header button:hover{
 
  .categoria{
     color: #fb822e;
-    margin-left: 30px;
-    font-size: 20px;
+    margin-left: 40px;
+    font-size: 25px;
     margin-top: 50px;
  }
 
@@ -122,6 +123,7 @@ header button:hover{
 
 /*=============== acabou catalago ===============*/
 
+/*=============== modal adicionar ===============*/
 
 .modal-inserir{
     display: none;
@@ -151,3 +153,88 @@ header button:hover{
     display: flex;
     flex-direction: column;
 }
+
+/*=============== acabou modal adicionar ===============*/
+
+/*=============== modal ver mais ===============*/
+
+.sombra{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+.quadro-modal{
+    border-radius: 8px;
+    width: 750px;   
+    background-color: #f1f1f1;
+    
+}
+
+.quadro-modal img{
+    height: 350px;
+    border: 1px solid #fb822e;
+    border-radius: 15px;
+    margin: 10px
+}
+
+.quadro-modal .nome{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #fb822e;
+    font-size: 40px;
+}
+
+.quadro-modal .preco{
+    margin-left: 10px;
+}
+
+.quadro-modal .descri{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.quadro-modal .x{
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    color: #fb822e;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid #fb822e;
+    display: flex;
+    justify-content: center;
+    margin-left: 330px;
+    margin-top:10px;
+}
+
+.quadro-modal .x:hover{
+    color: #ffffff;
+    background-color: #fb822e;
+    border: 2px solid #fb822e;
+}
+
+.quadro-modal button{
+    font-size: 20px;
+    height: 35px;
+    width: 120px;
+    color: #fb822e;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #fb822e;
+}
+
+.quadro-modal button:hover{
+    color: #ffffff;
+    background-color: #fb822e;
+    border: 2px solid #fb822e;
+}
+
+
+/*=============== acabou modal ver mais ===============*/
