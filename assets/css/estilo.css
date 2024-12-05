@@ -11,9 +11,9 @@
     display: flex;
 }
 
-.d-flex-evilin{
+.d-flex-bit{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .centraliza{
@@ -42,9 +42,31 @@ h1{
 }
 
 header input{
-    background-color: #aaaaaa;
-    width: ;
-    height: ;
+    background-color: #d1d1d1;
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+    border: transparent;
+    margin-top: 10px;
+}
+
+header button{
+    width: 100px;
+    height: 50px;
+    border-radius: 17px;
+    border: transparent;
+    margin-top: 10px;
+    
+}
+
+header button:hover{
+    width: 100px;
+    height: 50px;
+    border-radius: 17px;
+    border: transparent;
+    margin-top: 10px;
+    margin-left: 280px;
+    
 }
 
 /*=============== acabou cabeçalho ===============*/
